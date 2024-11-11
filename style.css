@@ -1,0 +1,21 @@
+.container{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    display: flex;
+    gap: 2.5rem;
+    width: 60%;
+    margin: auto;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: black;
+    
+}
+.container p{
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+}
